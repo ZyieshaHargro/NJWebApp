@@ -1,0 +1,64 @@
+body {
+    /*background-color: #e7dfd8;*/
+    background-color: #DDA0DD;
+    /*may need to at the font here*/
+}
+
+
+h1 {
+    color: black;
+}
+
+.container {
+    font-family: Papyrus, fantasy;
+    text-align: center;
+}
+button {
+    font-family: Papyrus, fantasy;
+
+    border-radius: 8px;
+    padding: 10px 24px;
+}
+.tab_box {
+    display: right;
+    justify-content: space-between;
+    /*if i wanted somemthing about margin i wqould add it here*/
+}
+a {
+    /*trying to get that line to go away*/
+    text-decoration: none;
+}
+
+.tab_btn {
+background-color: #C71585;
+}
+.tab_btn:hover {
+    background-color: #DB7093;
+}
+
+.image {
+    /*float:right;*/
+    border: 5px solid #black;
+    border-radius: 8px;
+    margin-right: 20px;
+    height: 450px;
+    width: 1000px;
+}
+
+.para {
+    /*float:left;*/
+
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left; /* Align text to the left */
+    margin-top: 10px;
+}
+
+controls {
+    background-color: #DDA0DD;
+}

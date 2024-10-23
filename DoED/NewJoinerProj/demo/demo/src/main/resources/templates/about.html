@@ -1,0 +1,49 @@
+<!doctype html>
+<!--<html lang="en">-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to the Soundz of Muzic</title>
+    <!--    UNSURE OF HOW THIS WORKS WITH WHAT I AM DOING-->
+    <link rel="stylesheet" href="" th:href="@{/css/about.css}" />
+
+    <style>
+            body {
+                background-image: url('image/piano2.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+            }
+    </style>
+</head>
+<body>
+<div class="container">
+     <h1> About Soundz of Muzic</h1>
+    <div class="tab_box">
+        <!--TABS CREATED HERE-->
+        <a href="welcome">
+            <button class="tab_btn">Home</button>
+        </a>
+
+        <a href="instruments">
+            <button class="tab_btn">Instruments</button>
+        </a>
+
+        <a href="about">
+            <button class="tab_btn">About</button>
+        </a>
+
+        <p> Soundz of Muzic was founded in 2024 by Zyiesha Hargro.
+            It allows the user to listen and learn about lesser known instruments around the world!!
+        </p>
+
+    </div>
+</div>
+
+<div class="background-image"> </div>
+</body>
+</html>

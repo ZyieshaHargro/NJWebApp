@@ -1,0 +1,73 @@
+<!doctype html>
+<!--<html lang="en">-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Instruments</title>
+        <!--    UNSURE OF HOW THIS WORKS WITH WHAT I AM DOING-->
+        <link rel="stylesheet" href="" th:href="@{/css/Instrumentstyle.css}"/>
+
+        <style>
+            body {
+                background-image: url('image/3.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1> Meet The Instumentz</h1>
+            <div class="tab_box">
+                <!--TABS CREATED HERE-->
+                <a href="welcome">
+                    <button class="tab_btn">Home</button>
+                </a>
+
+                <a href="instruments">
+                    <button class="tab_btn">Instruments</button>
+                </a>
+                <a href="about">
+                    <button class="tab_btn">About</button>
+                </a>
+
+            </div>
+            <!--This used to be outside the "container" i added it in hopefully nothing breaks -->
+            <div class="strums_box">
+                <a href="kora">
+                    <button class="strum_box">The Kora</button>
+                </a>
+                <a href="thermin">
+                    <button class="strum_box">The Thermin</button>
+                </a>
+                <a href="guiro">
+                    <button class="strum_box">The Guiro</button>
+                </a>
+                <a href="toha">
+                    <button class="strum_box">The Toha</button>
+                </a>
+            </div>
+
+        </div>
+
+    <div class="background-image"> </div>
+
+    </body>
+</html>
+
+
+<!--    THE INSTRUMENT PAGES   -->
+
+<!--        <nav>-->
+<!--            <ul>-->
+<!--                <li> <a href="kora.html">The Kora</a></li>-->
+<!--                <li> <a href="kora.html">The Thermin</a></li>-->
+<!--                <li> <a href="kora.html">The Guiro</a></li>-->
+<!--                <li> <a href="kora.html">The Toha</a></li>-->
+<!--            </ul>-->
+<!--        </nav>-->

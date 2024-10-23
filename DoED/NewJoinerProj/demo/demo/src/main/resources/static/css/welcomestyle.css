@@ -1,0 +1,46 @@
+body {
+    background-color: #e7dfd8;
+
+}
+
+h1 {
+  color: #DDA0DD;
+  left: 0;
+  line-height: 200px;
+  margin-top: -250px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.container {
+/*
+        background: #5F9EA0;
+        padding: 20px;
+*/
+    font-family: Papyrus, fantasy;
+    text-align: center;
+}
+button {
+    font-family: Papyrus, fantasy;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
+}
+.tab_box {
+    margin-top: 300px;
+    display: center;
+    justify-content: space-between;
+}
+
+.tab_btn {
+background-color: #C71585;
+}
+.tab_btn:hover {
+    background-color: #DB7093;
+}
+
+a {
+    /*trying to get that line to go away*/
+    text-decoration: none;
+}

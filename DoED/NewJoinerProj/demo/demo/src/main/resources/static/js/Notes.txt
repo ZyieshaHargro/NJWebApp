@@ -1,0 +1,49 @@
+
+In HTML, the class `strum_box` is applied to each individual button, while `strums_box` is applied to the parent ``
+ that contains all the buttons.
+
+Here's a breakdown of why you would use each class:
+
+1. .strum_box: This class is applied to each button individually. You use this class to style the buttons themselves.
+ For example, if you want to change the size, color, padding, or any other property of the buttons, you would target
+ .strum_box.
+
+
+2. .strums_box: This class is applied to the container <div> that holds all the buttons.
+You use this class to style the container. For example, if you want to change the layout, spacing between buttons,
+or any other property of the container, you would target .strums_box.
+
+
+
+To make the buttons bigger, you should target the .strum_box class because you want to change the properties
+of the buttons themselves. Here's an example of how you can use both classes effectively:
+.strum_box {
+    font-size: 20px; /* Increase the font size */
+    padding: 15px 30px; /* Increase the padding */
+    width: 200px; /* Set a fixed width */
+    height: 60px; /* Set a fixed height */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.strum_box:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.strums_box {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange buttons in a column */
+    gap: 10px; /* Add space between buttons */
+    align-items: center; /* Center align buttons */
+}
+
+In this example:
+
+3. .strum_box styles the individual buttons.
+
+4. .strums_box styles the container <div> to arrange the buttons in a column with
+some space between them and center-align them.
+

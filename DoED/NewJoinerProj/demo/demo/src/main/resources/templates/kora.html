@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Kora</title>
+
+    <link rel="stylesheet" href="" th:href="@{/css/kora.css}" />
+</head>
+<body>
+    <div class="container">
+        <div class="tab_box">
+            <!--TABS CREATED HERE-->
+            <a href="welcome">
+                <button class="tab_btn">Home</button>
+            </a>
+            <a href="instruments">
+                <button class="tab_btn">Instruments</button>
+            </a>
+            <a href="about">
+                <button class="tab_btn">About</button>
+            </a>
+        </div>
+
+        <h1> The Kora</h1>
+
+        <p> Click Here To Listen</p>
+
+        <audio controls>
+            /*<source src="horse.ogg" type="audio/ogg">*/
+            <source src="sound/relaxing-soft-kora-music-for-meditationfrom-west-africa.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="content">
+
+            <img src="image/BGkora.jpg" alt="The kora" class="image">
+
+            <div class="para">
+                <p> The kora is a musical instrument from West Africa. It looks like a mix between a harp and a guitar.</p>
+                <p> The kora has a big round body made from a gourd (a type of fruit) covered with animal skin.
+                    It has a long wooden neck and 21 strings.</p>
+                <p> You play the kora by plucking the strings with your thumbs and fingers.
+                    You sit down and hold the kora upright while playing.</p>
+                <p> The kora makes a beautiful, melodic sound that can be both soft and complex.</p>
+                <p>The kora is very special in West African culture. People use it to tell stories,
+                    sing songs, and celebrate important events.</p>
+                <p> Some famous kora players are Toumani Diabaté, Ballaké Sissoko, and Sona Jobarteh.
+                    They have helped make the kora popular around the world.</p>
+            </div>
+
+        </div>
+
+    </div>
+<!--I REMOVED THIS FOR THE TIME BEING NOT REALLY SEEING THE POINT-->
+<!--    <script src="" th:src="@{js/myjs.js}"></script>-->
+
+
+</body>
+</html>

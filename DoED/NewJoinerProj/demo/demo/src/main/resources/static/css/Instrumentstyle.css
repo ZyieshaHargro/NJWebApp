@@ -1,0 +1,73 @@
+body {
+    /*background-color: #e7dfd8;*/
+    background-color: #E0FFFF;
+    /*may need to at the font here*/
+}
+.container {
+/*
+        background: #5F9EA0;
+        padding: 20px;
+        maybe add something about the margin
+*/
+    font-family: Papyrus, fantasy;
+    text-align: center;
+    margin-top: 20px;
+
+}
+button {
+    font-family: Papyrus, fantasy;
+    border-radius: 8px;
+    padding: 10px 24px;
+}
+.tab_box {
+    display: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tab_btn {
+    background-color: #C71585;
+    cursor: pointer;
+}
+.tab_btn:hover {
+    background-color: #DB7093;
+}
+.strum_box {
+    border-radius: 8px;
+    margin-top: 50px;
+    height: 400px;
+    width: 300px;
+    padding: 10px 10px;
+    cursor: pointer;
+    /*border: none; */
+    background-color: #DA70D6; /* darkorchid */
+    font-size: 30px;
+}
+
+.strum_box:hover {
+    background-color: #DDA0DD;
+}
+
+.strums_box {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin-left: 130px;
+    /*justify-content: space-between;*/
+
+    align-items; center;
+}
+
+a {
+    /*trying to get that line to go away*/
+    text-decoration: none;
+}
+
+/* .tab_btn {
+       margin: 5px;
+       padding: 10px 20px;
+       font-size: 16px;
+
+   }
+
+*/
