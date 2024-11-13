@@ -1,0 +1,30 @@
+body {
+    background-color: #e7dfd8;
+
+}
+.container {
+    font-family: Papyrus, fantasy;
+    text-align: center;
+}
+button {
+    font-family: Papyrus, fantasy;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
+}
+.tab_box {
+    display: center;
+    justify-content: space-between;
+}
+
+.tab_btn {
+background-color: #C71585;
+}
+.tab_btn:hover {
+    background-color: #DB7093;
+}
+
+a {
+    /*trying to get that line to go away*/
+    text-decoration: none;
+}

@@ -1,5 +1,5 @@
-INSERT INTO TBL_INSTRUMENTS (name, description, audioFilePath, imageFilePath, origin, history) VALUES
-  ('The Kora', 'The kora is a west african instrument ...', NULL, NULL, NULL, NULL);
+INSERT INTO TBL_INSTRUMENTS (name, description, val, originYear , audioFilePath, imageFilePath) VALUES
+  ('The Kora', 'The kora is a west african instrument ...', NULL, NULL, NULL, NULL),
   ('The Thermin', 'The theremin is an electronic instrument that is played without physical contact', NULL, NULL, NULL, NULL),
   ('The Guiro', 'Vega', NULL, NULL, NULL, NULL),
   ('The Toha', 'Vega', NULL, NULL, NULL, NULL);

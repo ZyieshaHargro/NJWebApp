@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 import org.springframework.stereotype.Controller;
 //import org.springframework.web.bind.annotation.GetMapping;
@@ -31,5 +31,11 @@ public class TheController {
     public String about() {
         // this needs to match the request mapping
         return "about";
+    }
+
+    @RequestMapping("catalog")
+    public String catalog() {
+        // this needs to match the request mapping
+        return "catalog";
     }
 }

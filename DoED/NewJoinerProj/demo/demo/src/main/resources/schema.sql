@@ -6,10 +6,10 @@ CREATE TABLE TBL_INSTRUMENTS (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(250) NOT NULL,
     description TEXT NOT NULL,
+    val DOUBLE,
+    originyear INTEGER,
     audioFilePath VARCHAR(250),
-    imageFilePath VARCHAR(250),
-    origin VARCHAR(250),
-    history VARCHAR(250)
+    imageFilePath VARCHAR(250)
 );
 
 
